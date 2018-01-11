@@ -7,9 +7,23 @@ namespace DrinkAndGo.iOS.AR
 {
     public class ARViewRenderer : ViewRenderer
     {
+        private IOSARView arView;
+
         protected override void OnElementChanged(ElementChangedEventArgs<View> e)
         {
             base.OnElementChanged(e);
+
+            base.OnElementChanged(e);
+            if (Element == null)
+            {
+                return;
+            }
+
+            if (Control == null)
+            {
+                this.arView = new IOSARView();
+                SetNativeControl(this.arView);
+            }
         }
     }
 }
