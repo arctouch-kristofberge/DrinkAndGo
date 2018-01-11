@@ -130,6 +130,7 @@
     <Compile Include="AR\ARViewRenderer.cs" />
     <Compile Include="AR\IOSARView.cs" />
     <Compile Include="AR\ARViewController.cs" />
+    <Compile Include="AR\ARViewSessionDelegate.cs" />
   </ItemGroup>
   <ItemGroup>
     <SceneKitAsset Include="art.scnassets\Final_Pokemon_Ambient_Occlusion.jpg" />
