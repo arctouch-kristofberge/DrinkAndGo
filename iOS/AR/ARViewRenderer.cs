@@ -11,7 +11,6 @@ namespace DrinkAndGo.iOS.AR
         {
             base.OnElementChanged(e);
 
-            NativeView = new IOSARView();
         }
     }
 }
