@@ -23,6 +23,7 @@ namespace DrinkAndGo.iOS.AR
             {
                 this.arView = new IOSARView();
                 SetNativeControl(this.arView);
+				this.arView.LayoutSubviews();
             }
         }
     }

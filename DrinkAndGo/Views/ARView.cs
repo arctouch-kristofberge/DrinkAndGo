@@ -4,7 +4,7 @@ using Xamarin.Forms;
 
 namespace DrinkAndGo.Views
 {
-    public class ARView : ContentView
+    public class ARView : View
     {
     }
 }
