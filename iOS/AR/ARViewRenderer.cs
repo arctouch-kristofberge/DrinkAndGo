@@ -1,4 +1,4 @@
-﻿using System;
+﻿using ARKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
@@ -10,7 +10,6 @@ namespace DrinkAndGo.iOS.AR
         protected override void OnElementChanged(ElementChangedEventArgs<View> e)
         {
             base.OnElementChanged(e);
-
         }
     }
 }
