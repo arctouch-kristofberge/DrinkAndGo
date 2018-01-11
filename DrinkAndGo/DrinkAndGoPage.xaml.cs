@@ -8,5 +8,10 @@ namespace DrinkAndGo
         {
             InitializeComponent();
         }
+
+        private void OnFightClicked(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new FightPage());
+        }
     }
 }

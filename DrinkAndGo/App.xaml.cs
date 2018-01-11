@@ -8,7 +8,7 @@ namespace DrinkAndGo
         {
             InitializeComponent();
 
-            MainPage = new DrinkAndGoPage();
+            MainPage = new NavigationPage(new DrinkAndGoPage());
         }
 
         protected override void OnStart()
